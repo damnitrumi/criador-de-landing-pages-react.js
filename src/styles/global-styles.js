@@ -1,4 +1,3 @@
-import { css } from "styled-components";
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
@@ -7,9 +6,5 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
   }
 
-  body{
-    ${({ theme }) => css`
-      background: ${theme.colors.mainBg};
-    `}
-  }
+  body{}
 `;
