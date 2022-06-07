@@ -11,11 +11,15 @@ export const GlobalStyles = createGlobalStyle`
   html{
     font-size: 62.5%;
   }
+
   body{
     font-size: 1.6rem;
     font-family: ${({ theme }) => theme.font.family.default};
   }
+
   h1, h2, h3, h4, h5, h6{
     font-family: ${({ theme }) => theme.font.family.secondary};
+    font-weight: 900;
+    letter-spacing: -0.15rem;
   }
 `;
