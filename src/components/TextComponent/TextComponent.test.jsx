@@ -21,10 +21,9 @@ describe("<TextComponent/>", () => {
   });
 
   it("should match snapshot", () => {
-    renderTheme(<TextComponent>Children</TextComponent>);
-    const p = screen.getByText("Children");
+    const { container } = renderTheme(<TextComponent>Children</TextComponent>);
 
-    expect(p).toMatchInlineSnapshot(`
+    expect(container.firstChild).toMatchInlineSnapshot(`
       .c0 {
         font-size: 2.4rem;
       }

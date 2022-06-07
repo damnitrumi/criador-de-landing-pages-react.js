@@ -96,7 +96,6 @@ describe("<Heading/>", () => {
 
   it("should match snapshot", () => {
     const { container } = renderTheme(<Heading>texto</Heading>);
-
     const h1 = container.querySelector("h1");
 
     expect(h1).toMatchSnapshot();
