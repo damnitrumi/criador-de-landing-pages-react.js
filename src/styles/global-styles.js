@@ -21,5 +21,19 @@ export const GlobalStyles = createGlobalStyle`
     font-family: ${({ theme }) => theme.font.family.secondary};
     font-weight: 900;
     letter-spacing: -0.15rem;
+    margin: ${({ theme }) => theme.spacings.medium} 0;
+  }
+
+  p{
+    margin: ${({ theme }) => theme.spacings.medium} 0;
+  }
+
+  ul, ol{
+    margin: ${({ theme }) => theme.spacings.medium} ;
+    padding: ${({ theme }) => theme.spacings.medium} ;
+  }
+
+  a{
+    color: ${({ theme }) => theme.colors.secondaryColor} ;
   }
 `;
