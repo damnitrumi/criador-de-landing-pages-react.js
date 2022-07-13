@@ -1,5 +1,7 @@
 Projeto iniciado em curso da Udemy, onde criaremos uma aplicação que cria landing pages de formas variadas, utilizando todos os conceitos react.js aprendidos até o momento.
 
+O projeto consumia uma API própria a qual não tenho mais acesso, porém, por motivos de aprendizado, deixarei o código aqui.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
